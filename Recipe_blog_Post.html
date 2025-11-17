@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>This is my Recipe blog.</title>        
+    </head>
+    <body>
+        <article> <!-- Reason: The entire recipe is a complete and independent piece of content -->
+    <header>
+        <h1>Delicious Hyderabadi Biryani</h1>
+        <img src="biryani.jpg" alt="Image of Hyderabadi Biryani">
+        <p>Author: Chef Abdullah</p>
+    </header>
+
+    <section> <!-- Reason: 'Ingredients' is a logical section or chapter -->
+        <h2>Required Ingredients</h2>
+        <ul> <!-- Reason: Ingredients have no specific order, so <ul> -->
+            <li>Basmati Rice - 500g</li>
+            <li>Mutton - 1kg</li>
+            <li>Onions - 3</li>
+            <li>...and many more</li>
+        </ul>
+    </section>
+
+    <section> <!-- Reason: 'Cooking Procedure' is another logical section -->
+        <h2>Cooking Instructions</h2>
+        <ol> <!-- Reason: Cooking steps must follow a strict sequence, so <ol> -->
+            <li>First, wash the meat and drain the water completely.</li>
+            <li>Heat oil in a pot and fry chopped onions until golden.</li>
+            <li>Add the meat and spices, then sauté well.</li>
+            <li>...remaining steps</li>
+        </ol>
+    </section>
+    
+    <section class="comment-section"> <!-- Reason: Comment section is also a section -->
+        <h2>Reader Comments</h2>
+        <article class="user-comment"> <!-- Wow! Each comment is also a self-contained <article> -->
+             <p>"The recipe was amazing! Thank you."</p>
+             <footer>- Fahim Hasan</footer>
+        </article>
+        <article class="user-comment">
+            <p>"I tried it, and it turned out very good."</p>
+            <footer>- Sadia Chowdhury</footer>
+        </article>
+    </section>
+
+</article>
+
+    </body>
+</html>
